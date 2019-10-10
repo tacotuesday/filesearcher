@@ -25,10 +25,10 @@ with open('hitlist.csv', mode='w') as cleaner:
           count = count + 1
     if show_results == 'all':
       # Uncomment the line below to echo program output to stdout.
-      # print 'Total usage for', filepath, count
+      # print('Total usage for', filepath, count)
       row = [filepath, count]
       listWriter.writerow(row)
     else:
       if count == show_results:
         # TODO: Create this feature.
-        print 'Total usage for', filepath, count
+        print('Total usage for', filepath, count)
