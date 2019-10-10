@@ -1,7 +1,7 @@
 import os, csv
 
 filelist = []
-ignore_directories = 'data/mb/mb-chad', 'data/sb', 'spec', 'toolkit', 'builder'
+ignore_directories = 'data/mb/mb-chad', 'data/sb', 'data/spec', 'data/builder'
 show_results = 'all' # Use 'all' to see all results or specify a number
 
 # Crawl directories to create a master file list.
